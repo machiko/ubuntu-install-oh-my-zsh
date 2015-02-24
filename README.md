@@ -20,6 +20,8 @@
 #sudo vi ~/.zshrc
 找到 ZSH_THEME 設定為 agnoster
 ```
+[下載主題顏色](http://ethanschoonover.com/solarized)
+
 4.例外狀況，如果有出現 ？ 或沒有正常顯示，至 [https://gist.github.com/agnoster/3712874](https://gist.github.com/agnoster/3712874) 更新 agnoster 的 theme 內容
 
 [處理字體](https://github.com/supermarin/powerline-fonts)
