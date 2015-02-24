@@ -22,6 +22,7 @@
 ```
 4.例外狀況，如果有出現 ？ 或沒有正常顯示，至 [https://gist.github.com/agnoster/3712874](https://gist.github.com/agnoster/3712874) 更新 agnoster 的 theme 內容
 
+[處理字體](https://github.com/supermarin/powerline-fonts)
 ```
 #sudo vi ~/.oh-my-zsh/themes/agnoster.zsh-theme
 接著將內容替換掉，done
