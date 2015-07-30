@@ -40,3 +40,16 @@ subseparator.right  |'' (\ue0b3)  |'⮃' (\u2b83)     |
 branch symbol       |'' (\ue0a0)  |'⭠' (\u2b60)     |
 readonly symbol     |'' (\ue0a2)  |'⭤' (\u2b64)     |
 linecolumn symbol   |'' (\ue0a1)  |'⭡' (\u2b81)     |
+
+
+### 變更 sh
+```chsh -s /bin/zsh```
+
+You can confirm the location of zsh by running whereis zsh, or alternatively simply run
+```chsh -s $(which zsh)```
+
+If you want to change the shell for a user account other than the one you're logged into, you'll need to run it as root, so to change john's shell, do:
+```sudo chsh -s $(which zsh) john```
+
+### 查看目前 sh
+```echo $SHELL```
